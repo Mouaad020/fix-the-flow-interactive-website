@@ -7,6 +7,7 @@ share.addEventListener('click', function() {
     //Controleer of het werkt
     console.log('it works')
 
+//Voeg een toggle toe
    sharepopup.classList.toggle('yes'); 
 })
 
