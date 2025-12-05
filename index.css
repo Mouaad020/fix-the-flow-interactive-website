@@ -1,0 +1,60 @@
+.popup{
+    background-color: #F6F5F5;
+    border: 20px solid #466EBF;
+    border-radius: 60px;      
+    width: 300px; 
+    position: relative;
+    
+}
+
+
+
+.share{
+    position: absolute;
+    left: 120px;
+    bottom: 240px;
+}
+
+.share-friends{
+    position: relative;
+    left: 40px;
+}
+
+p{
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+}
+
+.sharelabel{
+    position: relative;
+    bottom: 10px;
+}
+
+input{
+    position: relative;
+    left: 20px;
+    width: 250px;
+    bottom: 10px;
+    border-radius: 20px;
+}
+.link{
+    position: relative;
+    bottom: 7px;
+    right: 10px;
+}
+
+.shareto{
+    position: relative;
+    left: 100px;
+}
+
+.media{
+    position: relative;
+    left: 60px;
+}
+
+
+
+
+
