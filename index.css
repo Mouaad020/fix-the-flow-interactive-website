@@ -1,10 +1,14 @@
 .popup{
     background-color: #F6F5F5;
     border: 20px solid #466EBF;
-    border-radius: 60px;      
-    width: 300px; 
+    border-radius: 40px;      
+    width: 250px;
+    height: 150px; 
+    max-width: 300px;
     position: relative;
     display: none;
+    position: fixed;
+    left: 6rem;
     
 }
 
@@ -16,47 +20,48 @@
 
 .share{
     position: absolute;
-    left: 120px;
-    bottom: 240px;
+    left: 7rem;
+    bottom: 8.5rem;
+    width: 40px;
 }
 
 .share-friends{
     position: relative;
-    left: 40px;
+    left: 3rem;
+    font-size: var(--h3-size);
 }
 
 p{
     position: relative;
-    left: 30px;
-    bottom: 30px;
+    left: 0.7rem;
+    bottom: 1.5rem;
 }
 
 .sharelabel{
     position: relative;
-    bottom: 10px;
+    bottom: 2.5rem;
+    left: 0.7rem;
 }
 
 input{
     position: relative;
-    left: 20px;
-    width: 250px;
-    bottom: 10px;
-    border-radius: 20px;
+    left: 0.7rem;
+    width: 13rem;
+    bottom: 2.5rem;
+    border-radius: 1.25rem;
 }
 .link{
     position: relative;
-    bottom: 7px;
-    right: 10px;
+    bottom: 2.2rem;
+    right: 0.8rem;
 }
 
-.shareto{
-    position: relative;
-    left: 100px;
-}
 
 .media{
     position: relative;
-    left: 60px;
+    left: 2.5rem;
+    bottom: 1.5rem;
+    width: 30px;
 }
 
 
