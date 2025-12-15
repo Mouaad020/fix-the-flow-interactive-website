@@ -55,12 +55,100 @@ header {
     align-items: flex-end;
 }
 
+.vergroot{
+    width: 30px;
+    position: relative;
+    left: 20em;
+    bottom: 3em;
+}
+
+.shop-h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.few-clicks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-click{
+    position: relative;
+    bottom: 6em;
+    left: 2em;
+}
+
+.input-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.shop-person-h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.act-of-core{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-house{
+    position: relative;
+    bottom: 6em;
+    left: 2em;
+}
+
+.input-card-2{
+   display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
 
+.h2-why{
+    grid-column: 2;
+  
+}
 
+.text-container{
+    grid-column: 2;
+}
 
+.img-why{
+    grid-row: 1;
+}
 
+.grid-container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.h2-know{
+    grid-column: 2;
+}
+
+.text-container-2{
+    grid-column: 2;
+}
+
+.img-know{
+    grid-row: 1;
+}
+.beschrijving{
+    
+}
 
 
 footer {
@@ -293,12 +381,26 @@ input {
     width: 200px;
 }
 
+.bike-img-klein-flex{
+    display: flex;
+    flex-direction: row;
+}
+
 .bike-img-klein {
     width: 50px;
-    position: relative;
-    top: 3rem;
-    right: 12rem;
+    
 }
+
+ 
+
+.find-it{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
 
 
 
