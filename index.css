@@ -1,70 +1,485 @@
-.popup{
+body {
+    font-family: parkinsans;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    /* margin-inline: 2em; */
+
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .navright {
+            margin-top: 15px;
+
+            .logoright {
+                @media (min-width: 768px) {
+                    margin-top: 5px;
+                    width: 90px;
+                }
+
+                @media (min-width: 1024px) {
+                    margin-top: 20px;
+                    width: 100px;
+                }
+            }
+        }
+
+        .logoleft {
+            @media (min-width: 768px) {
+                width: 60px;
+            }
+
+            @media (min-width: 1024px) {
+                width: 70px;
+            }
+        }
+
+    }
+}
+
+.hero {
+    position: relative;
+    top: 4rem;
+
+
+    .map {
+        width: 350px
+    }
+
+    .vergroot {
+        position: absolute;
+        left: 18rem;
+        top: 11.5rem;
+    }
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+.h2-why{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.text-container{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.img-why{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
+.grid-container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.h2-know{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.text-container-2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.img-know{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+.beschrijving{
+    grid-row: 2;
+}
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+
+    form {
+        background-color: var(--formcolor);
+
+
+        .h3-footer {
+            color: white;
+            padding-inline-start: 1em;
+        }
+    }
+
+
+    .wrapper {
+        position: relative;
+        top: 3em;
+        width: 95%;
+        margin: 0 auto;
+
+
+
+        @media (min-width: 768px) {
+            width: 50%;
+            left: 150px;
+        }
+
+        @media (min-width: 1024px) {
+            width: 50%;
+            left: 200px;
+        }
+
+
+
+
+        .email {
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+
+
+            @media (min-width: 768px) {}
+        }
+
+        .formbutton {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            aspect-ratio: 1/1;
+            border: none;
+            background: none;
+            cursor: pointer;
+            z-index: 10;
+            padding: 0;
+        }
+    }
+}
+
+
+
+.footerlogo {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding-inline-start: 1em;
+
+
+
+    .milledoniimg {
+        width: 150px;
+    }
+}
+
+
+
+.footersection {
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-block: 0;
+    padding-inline: 2em;
+    list-style: none;
+
+    ul {
+        padding: 0;
+
+    }
+
+
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+    .titel-list {
+        font-weight: bold;
+    }
+}
+
+
+
+
+.legalpages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: beige;
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 2.5em;
+    list-style: none;
+
+    @media (min-width: 768px) {
+
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+
+
+    .legal {
+        @media (min-width: 768px) {
+
+            margin-left: 2rem;
+
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popup {
     background-color: #F6F5F5;
     border: 20px solid #466EBF;
-    border-radius: 40px;      
+    border-radius: 40px;
     width: 250px;
-    height: 150px; 
+    height: 150px;
     max-width: 300px;
     position: relative;
     display: none;
-    position: fixed;
     left: 6rem;
-    
+
+
 }
 
-.yes{
+.yes {
     display: block;
 }
 
 
 
-.share{
+.share {
     position: absolute;
     left: 7rem;
     bottom: 8.5rem;
     width: 40px;
 }
 
-.share-friends{
+.share-friends {
     position: relative;
     left: 3rem;
     font-size: var(--h3-size);
 }
 
-p{
+p {
     position: relative;
     left: 0.7rem;
     bottom: 1.5rem;
 }
 
-.sharelabel{
+.sharelabel {
     position: relative;
     bottom: 2.5rem;
     left: 0.7rem;
 }
 
-input{
+input {
     position: relative;
     left: 0.7rem;
     width: 13rem;
     bottom: 2.5rem;
     border-radius: 1.25rem;
 }
-.link{
+
+.link {
     position: relative;
     bottom: 2.2rem;
     right: 0.8rem;
 }
 
 
-.media{
+.media {
     position: relative;
     left: 2.5rem;
     bottom: 1.5rem;
     width: 30px;
 }
 
+.bike-img {
+    width: 200px;
+}
+
+.bike-img-klein {
+    width: 50px;
+    position: relative;
+    top: 3rem;
+    right: 12rem;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+
+    form {
+        background-color: var(--formcolor);
+
+
+        .h3-footer {
+            color: white;
+            padding-inline-start: 1em;
+        }
+    }
+
+
+    .wrapper {
+        position: relative;
+        width: 95%;
+        margin: 0 auto;
+
+
+
+        @media (min-width: 768px) {
+            width: 50%;
+            left: 150px;
+        }
+
+        @media (min-width: 1024px) {
+            width: 50%;
+            left: 200px;
+        }
 
 
 
 
+        .email {
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+
+
+            @media (min-width: 768px) {}
+        }
+
+        .formbutton {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            aspect-ratio: 1/1;
+            border: none;
+            background: none;
+            cursor: pointer;
+            z-index: 10;
+            padding: 0;
+        }
+    }
+}
+
+
+
+.footerlogo {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding-inline-start: 1em;
+
+
+
+    .milledoniimg {
+        width: 150px;
+    }
+}
+
+
+
+.footersection {
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-block: 0;
+    padding-inline: 2em;
+    list-style: none;
+
+    ul {
+        padding: 0;
+
+    }
+
+
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+    .titel-list {
+        font-weight: bold;
+    }
+}
+
+
+
+
+.legalpages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: beige;
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 2.5em;
+    list-style: none;
+
+    @media (min-width: 768px) {
+
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+
+
+    .legal {
+        @media (min-width: 768px) {
+
+            margin-left: 2rem;
+
+        }
+
+    }
+}
