@@ -1,0 +1,357 @@
+
+body {
+    font-family: parkinsans;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+header {
+    margin-inline: 2em;
+
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .navright {
+            margin-top: 15px;
+
+            .logoright {
+                @media (min-width: 768px) {
+                    margin-top: 5px;
+                    width: 90px;
+                }
+
+                @media (min-width: 1024px) {
+                    margin-top: 20px;
+                    width: 100px;
+                }
+            }
+        }
+
+        .logoleft {
+            @media (min-width: 768px) {
+                width: 60px;
+            }
+
+            @media (min-width: 1024px) {
+                width: 70px;
+            }
+        }
+
+    }
+}
+
+
+
+main {
+    margin-inline: 2em;
+
+    @media (min-width: 768px) {
+        display: flex;
+        gap: 2em;
+    }
+
+    .hero {
+        align-self: flex-end;
+
+        h1 {
+            font-size: var(--h1-size);
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+
+            @media (min-width: 768px) {
+                justify-content: center;
+                align-content: flex-end;
+            }
+        }
+
+        .community {
+            width: 250px;
+
+            @media (min-width: 768px) {
+                width: 400px;
+            }
+        }
+    }
+}
+
+
+
+.search-hero {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 10px;
+    left: 0.5em;
+
+    @media (min-width: 768px) {
+        position: relative;
+    }
+
+    @media (min-width: 768px) {
+        position: relative;
+    }
+
+    .search {
+        width: 2.7em;
+    }
+
+    .memo {
+        width: 1.5em;
+    }
+
+    input[type=search] {
+        width: 100%;
+        height: 40px;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+        padding-inline: 3em;
+
+
+        @media (min-width: 768px) {
+            padding-inline: 6em;
+
+        }
+
+        @media (min-width: 1024px) {
+            padding-inline: 10em;
+        }
+
+    }
+
+    .button-search {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        aspect-ratio: 1/1;
+        border: none;
+        background: none;
+        cursor: pointer;
+        z-index: 10;
+        padding: 0;
+    }
+
+    .button-chat {
+        position: absolute;
+        left: 0.5em;
+        top: 0;
+        height: 100%;
+        aspect-ratio: 1/1;
+        border: none;
+        background: none;
+        cursor: pointer;
+        z-index: 10;
+        padding: 0;
+        width: 5px;
+    }
+}
+
+
+
+.products {
+
+    .strik {
+        width: 100%;
+    }
+
+
+    .background {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: var(--background-color-secondary);
+        position: relative;
+
+        .filter {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        h2 {
+            font-size: var(--h3-size);
+            line-height: 16px;
+        }
+
+    }
+
+
+    .backgroundproducts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        background-color: var(--background-color-secondary);
+        list-style: none;
+             padding: 0;
+             margin: 0;
+
+        @media (min-width: 1024px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+
+        .photo {
+            width: 100%;
+            object-fit: cover;
+
+            @media (min-width: 768px) {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+
+    form {
+        background-color: var(--formcolor);
+
+
+        .h3-footer {
+            color: white;
+            padding-inline-start: 1em;
+        }
+    }
+
+
+    .wrapper {
+        position: relative;
+        width: 95%;
+        margin: 0 auto;
+
+
+
+        @media (min-width: 768px) {
+            width: 50%;
+            left: 150px;
+        }
+
+        @media (min-width: 1024px) {
+            width: 50%;
+            left: 200px;
+        }
+
+
+
+
+        .email {
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+
+
+            @media (min-width: 768px) {}
+        }
+
+        .formbutton {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            aspect-ratio: 1/1;
+            border: none;
+            background: none;
+            cursor: pointer;
+            z-index: 10;
+            padding: 0;
+        }
+    }
+}
+
+
+
+.footerlogo {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding-inline-start: 1em;
+
+
+
+    .milledoniimg {
+        width: 150px;
+    }
+}
+
+
+
+.footersection {
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-block: 0;
+    padding-inline: 2em;
+    list-style: none;
+
+    ul {
+        padding: 0;
+       
+    }
+
+
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(6, 1fr);
+        
+    }
+
+    .titel-list {
+        font-weight: bold;
+    }
+}
+
+
+
+
+.legalpages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: beige;
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 2.5em;
+    list-style: none;
+
+    @media (min-width: 768px) {
+
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+
+
+    .legal {
+        @media (min-width: 768px) {
+
+            margin-left: 2rem;
+
+        }
+
+    }
+}
+
+
+
+.aichatbot{
+    display: none;
+    
+}
+
+.open{
+    display: block;
+}
