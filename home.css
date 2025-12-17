@@ -1,4 +1,3 @@
-
 body {
     font-family: parkinsans;
     margin: 0;
@@ -19,6 +18,7 @@ header {
 
         .navright {
             margin-top: 15px;
+
 
             .logoright {
                 @media (min-width: 768px) {
@@ -45,6 +45,85 @@ header {
 
     }
 }
+
+.sharebutton {
+    border-radius: 10px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 3em;
+
+}
+
+.popup {
+    background-color: beige;
+    border: 20px solid #466EBF;
+    border-radius: 40px;
+    width: 250px;
+    height: 150px;
+    max-width: 300px;
+    position: relative;
+    display: none;
+    left: 2.5rem;
+
+
+}
+
+.yes {
+    display: block;
+}
+
+
+
+.share {
+    position: absolute;
+    left: 7rem;
+    bottom: 8.5rem;
+    width: 40px;
+}
+
+.share-friends {
+    position: relative;
+    left: 3rem;
+    font-size: var(--h3-size);
+}
+
+p {
+    position: relative;
+    left: 0.7rem;
+    bottom: 1.5rem;
+}
+
+.sharelabel {
+    position: relative;
+    bottom: 2.5rem;
+    left: 0.7rem;
+}
+
+.input-share {
+    position: relative;
+    left: 0.7rem;
+    width: 13rem;
+    bottom: 2.5rem;
+    border-radius: 1.25rem;
+}
+
+.link {
+    position: relative;
+    bottom: 2.2rem;
+    right: 0.8rem;
+}
+
+.media {
+    position: relative;
+    left: 2.5rem;
+    bottom: 1.5rem;
+    width: 30px;
+}
+
+
+
 
 
 
@@ -191,8 +270,8 @@ main {
         grid-template-rows: repeat(2, 1fr);
         background-color: var(--background-color-secondary);
         list-style: none;
-             padding: 0;
-             margin: 0;
+        padding: 0;
+        margin: 0;
 
         @media (min-width: 1024px) {
             grid-template-columns: repeat(3, 1fr);
@@ -300,13 +379,13 @@ footer {
 
     ul {
         padding: 0;
-       
+
     }
 
 
     @media (min-width: 768px) {
         grid-template-columns: repeat(6, 1fr);
-        
+
     }
 
     .titel-list {
@@ -347,12 +426,16 @@ footer {
 
 
 
-.aichatbot{
+.aichatbot {
     display: none;
-    
+
 }
 
-.open{
+.chatbot-p{
+    margin-top: 50px;
+}
+
+.open {
     display: block;
     margin-block-end: 2em;
 }
@@ -362,6 +445,6 @@ footer {
     display: block;
 } */
 
-.disappear{
+.disappear {
     display: none;
 }
