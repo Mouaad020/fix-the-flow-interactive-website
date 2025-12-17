@@ -354,4 +354,14 @@ footer {
 
 .open{
     display: block;
+    margin-block-end: 2em;
+}
+
+
+/* h1{
+    display: block;
+} */
+
+.disappear{
+    display: none;
 }
