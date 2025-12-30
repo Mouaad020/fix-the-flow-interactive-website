@@ -15,7 +15,8 @@ Met dit project heb ik me bezig gehouden met mijn website interactief maken. In 
 https://github.com/user-attachments/assets/4471fb9f-ba8f-4d3a-a066-83f7398d9b31
 
 
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Link naar de github pages:
+https://mouaad020.github.io/fix-the-flow-interactive-website
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
@@ -25,7 +26,8 @@ In deze schermopname zie je wanneer ik op de share button klik dat er dan een sh
 
 https://github.com/user-attachments/assets/19bb1d7a-aaec-45be-a07a-e482ca5bdee9
 
-
+Link naar de github pages:
+https://mouaad020.github.io/fix-the-flow-interactive-website
 ## Bronnen
 
 ## Licentie
