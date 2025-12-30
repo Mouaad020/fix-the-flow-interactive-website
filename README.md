@@ -9,8 +9,9 @@ Fix-the-flow-interactive-website
 ## Beschrijving
 Met dit project heb ik me bezig gehouden met mijn website interactief maken. In dit filmpje zie je wanneer ik op de share knop klik dat er dan een share popup tevoorschijn komt en als ik weer klik op de hare knop verdwijnt de popup.
 
+ik heb een wireflow gemaakt voor deze interactie:
 
- In deze schermopname zie je wanneer ik op de chatbot klik dat er dan een chatbot tevoorschijn komt en als ik weer klik op de chatbot verdwijnt de chat.
+In deze schermopname zie je wanneer ik op de chatbot klik dat er dan een chatbot tevoorschijn komt en als ik weer klik op de chatbot verdwijnt de chat.
  
 https://github.com/user-attachments/assets/4471fb9f-ba8f-4d3a-a066-83f7398d9b31
 
@@ -21,6 +22,10 @@ https://mouaad020.github.io/fix-the-flow-interactive-website
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 Ik heb de interacies kunnen maken door CSS en Javascript te gebruiken. Met CSS heb ik de popup en de chat kunnen stylen. Met JavaScript heb ik ervoor kunnen zorgen als ik er word geklikt dat er dan een interactie tevoorschijn komt en als er weer word geklikt dan verdwijnt het.
+
+ik heb een wireflow gemaakt voor deze interactie:
+
+
 
 In deze schermopname zie je wanneer ik op de share button klik dat er dan een share popup tevoorschijn komt en als ik weer klik op de share button dan verdwijnt de popup.
 
